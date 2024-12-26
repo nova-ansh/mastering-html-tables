@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tables.css">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Tables in HTML</h1>
+        <h3>Various types of the tables are shown below with the caption.</h3>
+    </header>
+
+    <main>
+        <section class="Simple-Table">
+            <div>
+                <h2>Simple Table</h2>
+                <br>
+                <p>No Header Column or Row</p> 
+                <br>
+
+            <table border="1.0">
+                <caption>Multiplers</caption>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section class="Header-Row">
+           <div>
+            <h2>Header Row</h2>
+            <p>The top row is centered and bold, representing the parameter, etc.</p>
+            <table border="1.0" style="border-width: 2px;">
+                <caption>PHD Student Details</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Institution</th>
+                    <th>Area of Expertise</th>
+                    <th>Teaching Experience</th>
+                </tr>
+                <tr>
+                    <td>Avinash Banerjee</td>
+                    <td>28</td>
+                    <td>IIT Bombay</td>
+                    <td>Cryptography and Number Theory</td>
+                    <td>4 years</td>
+                </tr>
+                <tr>
+                    <td>Ansh Deep Singh</td>
+                    <td>25</td>
+                    <td>IISC Banagalore</td>
+                    <td>Graph Theory and Transportation Network</td>
+                    <td>2 Years</td>
+                </tr>
+                <tr>
+                    <td>Sumit Sharma</td>
+                    <td>26</td>
+                    <td>IIT Roorkee</td>
+                    <td>Cryptography and Number Theory</td>
+                    <td>3 Years</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+        <section class="Header-Column">
+            <div>
+                <h2>Header Column</h2>
+                <br>
+                <p>Week days corresponding to week numbers</p>
+                <br>
+                <table border="1.0">
+                    <caption>Week Numbers</caption>
+                    <tr>
+                        <th>Monday</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Firday</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>7</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="Header-Column and Header-Row">
+            <div>
+                <h2>Header Column and Header Row</h2>
+                <p>Distance Matrix between Major Cities</p>
+                <table border="1.0">
+                    <caption>Adjancey Matrix</caption>
+                    <tr>
+                        <td></td>
+                        <td>Bombay</td>
+                        <td>Madras</td>
+                        <td>Calcutta</td>
+                        <td>Delhi</td>
+                        <td>Bangalore</td>
+                    </tr>
+                    <tr>
+                        <td>Bombay</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Madras</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Calcutta</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Delhi</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Bangaore</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="list-inclusion">
+            <div>
+                <h2>List in the table with Span and Images</h2>
+                <p>Transport Options Availability</p>
+                <table border="1.0">
+                    <caption>Transportation Availability from Mumbai to Banaglore</caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                <img width="250px" height="150px" src="Mumbai Skyline.jpeg" alt="mumbai">
+                                <strong style="writing-mode: vertical-lr; text-orientation: upright;">MUMBAI</strong>
+                            </th>
+                            <th>
+                                <img width="250px" height="150px" src="Bangalore Skyline.webp" alt="Bangalore">
+                                <strong style="writing-mode: vertical-lr; text-orientation: upright;">BANGALORE</strong>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                National Expressway 7 - 15 Hr:30 Min
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Railways: Trivandaram Express - 18 Hr:39 Min 
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Mixed Tables</h2>
+                <p>2 columns including examples</p>
+                <table border="1.0">
+                    <caption>Transportation Modes in India</caption>
+                    <tr>
+                      <th>Transport Mode</th>
+                      <th>Examples</th>
+                    </tr>
+                    <tr>
+                      <td>Roadways</td>
+                      <td>NH 44, NH 27</td>
+                    </tr>
+                    <tr>
+                      <td>Railways</td>
+                      <td>Rajdhani Express, Shatabdi Express</td>
+                    </tr>
+                    <tr>
+                      <td>Airways</td>
+                      <td>Indira Gandhi International Airport, Chhatrapati Shivaji Airport</td>
+                    </tr>
+                    <tr>
+                      <td>Waterways</td>
+                      <td>National Waterway 1, National Waterway 2</td>
+                    </tr>
+                  </table>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Mixed Tables</h2>
+                <p>port States and names</p>
+                <table border="1.0">
+                    <caption>Major Ports in India</caption>
+                    <tr>
+                      <th>State</th>
+                      <th>Major Port</th>
+                    </tr>
+                    <tr>
+                      <td>Gujarat</td>
+                      <td>Kandla Port</td>
+                    </tr>
+                    <tr>
+                      <td>Maharashtra</td>
+                      <td>Jawaharlal Nehru Port</td>
+                    </tr>
+                    <tr>
+                      <td>Tamil Nadu</td>
+                      <td>Chennai Port</td>
+                    </tr>
+                    <tr>
+                      <td>West Bengal</td>
+                      <td>Haldia Port</td>
+                    </tr>
+                  </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3> &copy; 2024 | All Rights Reserved </h3>
+    </footer>
+</body>
+</html>
